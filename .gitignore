@@ -1,0 +1,9 @@
+# Ignorar la carpeta target/
+target/
+
+# Ignorar archivos de configuración local
+.env
+*.log
+
+# Ignorar archivos temporales
+*.tmp
