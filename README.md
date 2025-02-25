@@ -42,6 +42,7 @@ Autores :
 Manuel de Jesús Escobar Contreras---------EC230554
 
 Alejandra Marisol Hernández Monterrosa----HM240103
+
 José Abdiel Palacios Méndez---------------PM241596
 
 Rodrigo Alberto Velasco Herrera-----------VH192433
