@@ -9,12 +9,25 @@ Una empresa tecnológica en expansión necesita un software para administrar sus
 La empresa contrata a empleados con diferentes roles (Desarrollador, Gerente, Contador), y cada uno tiene un salario diferente. Recursos Humanos se encarga de contratar y despedir empleados, mientras que Finanzas se encarga de calcular y procesar los pagos. Cuando un empleado es contratado, Finanzas debe recibir la 
 notificación para gestionar su salario.
 
+La solución implementa un sistema modular y orientado a objetos que garantiza la correcta gestión de empleados, asegurando el cumplimiento de las reglas establecida en el negocio sin generar malos entendidos.
+
+✅ Gestión de empleados: Cada empleado pertenece a un departamento y tiene un rol específico (Desarrollador, Gerente, Contador).
+✅ Contratación y despido: Recursos Humanos gestiona la contratación y despido de empleados, notificando automáticamente a Finanzas.
+✅ Control de presupuesto: Recursos Humanos solo puede contratar si hay presupuesto disponible en Finanzas.
+✅ Procesamiento de pagos: Finanzas solo paga salarios a empleados activos y que cumplan las condiciones establecidas.
+
+✅ Validaciones de negocio:
+Un gerente debe tener mínimo 3 desarrolladores a su cargo.
+Un desarrollador debe estar asignado a un proyecto antes de recibir salario.
+
 ● Cómo ejecutar el proyecto :
 
 Pre-requisitos: 
 
 Configuración del Proyecto 
-✅IntelliJ 
+✅IntelliJ IDEA 
+✅ Lombok 
+✅ Jacoco
 ✅Lenguaje: Java 17 
 ✅Gestor de dependencias: Maven 
 ✅Repositorio de código: GitHub
